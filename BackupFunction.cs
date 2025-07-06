@@ -33,5 +33,19 @@ namespace BackupFunctionApp
 
             log.LogInformation("Backup concluído!");
         }
+
+        private class TimerTriggerAttribute : Attribute
+        {
+            private string v;
+
+            public TimerTriggerAttribute(string v)
+            {
+                this.v = v;
+            }
+        }
+    }
+
+    public class TimerInfo
+    {
     }
 }
