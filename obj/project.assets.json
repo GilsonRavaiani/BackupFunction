@@ -187,6 +187,18 @@
           "lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll": {}
         }
       },
+      "Microsoft.Azure.Functions.Worker.Extensions.Timer/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Functions.Worker.Extensions.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Timer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Timer.dll": {}
+        }
+      },
       "Microsoft.Azure.Functions.Worker.Grpc/1.13.0": {
         "type": "package",
         "dependencies": {
@@ -1219,6 +1231,19 @@
         "lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll",
         "microsoft.azure.functions.worker.extensions.abstractions.1.3.0.nupkg.sha512",
         "microsoft.azure.functions.worker.extensions.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Functions.Worker.Extensions.Timer/4.0.1": {
+      "sha512": "SANt3W7JoPhM8hz3PcImXC3jgl/VDsYO+qpNvke2hs0XfLyK314j30jJcOmy8m0hL9Yg01qA3xnx1Qm5e2nkrw==",
+      "type": "package",
+      "path": "microsoft.azure.functions.worker.extensions.timer/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/Microsoft.Azure.Functions.Worker.Extensions.Timer.dll",
+        "microsoft.azure.functions.worker.extensions.timer.4.0.1.nupkg.sha512",
+        "microsoft.azure.functions.worker.extensions.timer.nuspec"
       ]
     },
     "Microsoft.Azure.Functions.Worker.Grpc/1.13.0": {
@@ -2437,6 +2462,7 @@
     "net8.0": [
       "Azure.Storage.Blobs >= 12.20.0",
       "Microsoft.Azure.Functions.Worker >= 1.18.0",
+      "Microsoft.Azure.Functions.Worker.Extensions.Timer >= 4.0.1",
       "Microsoft.Extensions.Logging.Console >= 7.0.0"
     ]
   },
@@ -2490,6 +2516,10 @@
           "Microsoft.Azure.Functions.Worker": {
             "target": "Package",
             "version": "[1.18.0, )"
+          },
+          "Microsoft.Azure.Functions.Worker.Extensions.Timer": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           },
           "Microsoft.Extensions.Logging.Console": {
             "target": "Package",

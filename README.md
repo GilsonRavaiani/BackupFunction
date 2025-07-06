@@ -250,3 +250,5 @@ public class TimerTests
 
  
 
+dotnet add package Microsoft.Azure.Functions.Worker.Extensions.Timer --version 4.0.1
+

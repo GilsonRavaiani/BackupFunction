@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[1.18.0, )"
             },
+            "Microsoft.Azure.Functions.Worker.Extensions.Timer": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[7.0.0, )"

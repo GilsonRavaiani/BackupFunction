@@ -1,12 +1,19 @@
+using System;
+using Azure.Storage.Blobs;
+using Microsoft.Azure.Functions.Worker;
+using Microsoft.Azure.Functions.Worker;
+using Microsoft.Azure.Functions.Worker.Extensions;
+using Microsoft.Extensions.Logging;
+
 public class BackupFunction
 {
     [Function("BackupFunction")]
     public void Run([TimerTrigger("0 0 2 * * *")] TimerInfo timer, FunctionContext context)
     {
         var log = context.GetLogger("BackupFunction");
-        log.LogInformation("Função iniciada");
+        log.LogInformation($"Backup iniciado: {DateTime.UtcNow}");
 
-        // lógica de backup aqui
+        // Lógica do backup aqui...
 
         log.LogInformation("Backup concluído!");
     }
