@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "SRC_STORAGE_CONNECTION": "<string_conexao_origem>",
+    "DEST_STORAGE_CONNECTION": "<string_conexao_destino>",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
