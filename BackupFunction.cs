@@ -8,13 +8,12 @@ public class BackupFunction
 {
     [Function("BackupFunction")]
     public void Run(
-        [TimerTrigger("0 0 2 * * *")] TimerInfo timer, 
+        [TimerTrigger("0 0 2 * * *", RunOnStartup = true)] TimerTriggerInput timer,
         FunctionContext context)
     {
         var log = context.GetLogger("BackupFunction");
         log.LogInformation($"⏱️ Backup iniciado: {DateTime.UtcNow}");
 
-        // Strings de conexão vindas de variáveis de ambiente
         var srcConnection = Environment.GetEnvironmentVariable("SRC_STORAGE_CONNECTION");
         var destConnection = Environment.GetEnvironmentVariable("DEST_STORAGE_CONNECTION");
 

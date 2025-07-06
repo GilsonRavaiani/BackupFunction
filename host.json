@@ -6,5 +6,12 @@
         "isEnabled": true
       }
     }
+  },
+  "extensions": {
+    "timers": {
+      "scheduleMonitor": {
+        "enabled": true
+      }
+    }
   }
 }

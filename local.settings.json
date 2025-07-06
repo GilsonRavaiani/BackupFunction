@@ -2,8 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "",
-    "SRC_STORAGE_CONNECTION": "<string_conexao_origem>",
-    "DEST_STORAGE_CONNECTION": "<string_conexao_destino>",
+    "SRC_STORAGE_CONNECTION": "DefaultEndpointsProtocol=https;AccountName=origemStorageName;AccountKey=SUA_CHAVE_ORIGEM;EndpointSuffix=core.windows.net",
+    "DEST_STORAGE_CONNECTION": "DefaultEndpointsProtocol=https;AccountName=destinoStorageName;AccountKey=SUA_CHAVE_DESTINO;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
   }
 }

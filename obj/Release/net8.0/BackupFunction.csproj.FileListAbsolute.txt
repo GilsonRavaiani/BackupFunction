@@ -1,0 +1,6 @@
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.csproj.AssemblyReference.cache
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.AssemblyInfoInputs.cache
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.AssemblyInfo.cs
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.csproj.CoreCompileInputs.cache
+C:\Users\admin.ravaiani\Documents\GitHub\BackupFunction\obj\Release\net8.0\BackupFunction.sourcelink.json
